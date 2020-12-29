@@ -1,0 +1,91 @@
+footer {
+  padding: 20px;
+  color: #fff;
+  background-image: linear-gradient(to right, #FFD54F, #D500F9);
+
+}
+#foo{
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#team
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #555;
+
+}
+h1
+{
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 10px auto 5px;
+
+}
+.profile-pic
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+    height: 150px;
+    width: 100px;
+}
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #007bff !important;
+}
+.profile-pic h3
+{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#team .fa
+{
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background: #fff;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+
+
+

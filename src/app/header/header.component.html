@@ -1,0 +1,38 @@
+
+<mat-toolbar >
+  <mat-toolbar-row class="toolbarColor">
+      <button mat-icon-button (click)="toggleSideBar()">
+          <mat-icon>menu</mat-icon>
+      </button>
+
+      <span> Instagram </span>
+
+      <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+          <ul fxLayout="row" fxLayoutGap="20px">
+
+
+              <li>
+                  <button mat-button [matMenuTriggerFor]="menu">
+                      <mat-icon>person_outline</mat-icon>
+                  </button>
+                  <mat-menu #menu="matMenu">
+                      <button mat-menu-item>
+                          <mat-icon>exit_to_app</mat-icon>
+                          Sign out
+                      </button>
+                  </mat-menu>
+
+              </li>
+
+          </ul>
+      </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<div id="profileSearch">
+  <div id="search"> <input id="input" placeholder="Search..." /> <button id="button"><i class="fa fa-search"></i></button>
+  </div>
+  <div class="note">Type & hit enter</div>
+</div>
+
+
